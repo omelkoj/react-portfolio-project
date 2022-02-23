@@ -1,38 +1,53 @@
-.App {
-  text-align: center;
+* {
+  background-color: pink;
+  margin: 0;
+  padding: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.container {
+  margin: 30px auto;
   display: flex;
+  justify-content: space-between;
   flex-direction: column;
-  align-items: center;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  width: 750px;
+  position: relative;
+}
+
+.mealvoterforms {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.todo {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+.blue-box {
+  margin-top: 30px;
+  width: 125px;
+  height: 100px;
+  background: blue;
+  border: 10px black solid;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.buttonfade {
+  transition: opacity 2s ease;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.fadeOut {
+  opacity: 0;
+  width: 0;
+  height: 0;
+  transition: width 0.5s 0.5s, height 0.5s 0.5s, opacity 0.5s;
+}
+.fadeIn {
+  opacity: 1;
+  width: 100px;
+  height: 100px;
+  transition: width 0.5s, height 0.5s, opacity 0.5s 0.5s;
 }
