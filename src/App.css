@@ -1,53 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=VT323&display=swap");
+
 * {
   background-color: pink;
   margin: 0;
   padding: 0;
 }
 
-.container {
-  margin: 30px auto;
+.header {
   display: flex;
-  justify-content: space-between;
   flex-direction: column;
-  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-family: "Roboto Mono", monospace;
+  font-size: 20px;
+  background-color: aliceblue;
+  width: 1040px;
+  border: 5px black solid;
+  text-align: center;
+  padding: 10px;
+  margin: 20px;
+  align-items: center;
+}
+
+.dinnerchoiceinput {
+  background-color: aliceblue;
+  padding: 3px;
+}
+
+.dinnerchoiceinputtwo {
+  background-color: aliceblue;
+  margin-right: 10px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+
+.input-styling-one {
+  background-color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  border: solid 5px black;
+  margin-right: 40px;
+  font-family: "Roboto Mono", monospace;
+}
+
+.page-styling {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.page-styling-two {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.background-color {
+  background-color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+.background-color-bold {
+  background-color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  font-weight: 900;
+  padding: 5px;
+}
+
+.background-color-buttons {
+  background-color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  width: 300px;
+}
+
+.background-color-test {
+  background-color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 250px;
+  width: 260px;
+  font-family: "Roboto Mono", monospace;
+}
+
+.calc-header {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  background-color: aliceblue;
+  padding: 5px;
+}
+
+.calc-general {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+.calc {
+  background-color: aliceblue;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  font-family: "Roboto Mono", monospace;
   width: 750px;
   position: relative;
+  border: 5px solid black;
 }
 
-.mealvoterforms {
+.calc-two {
+  background-color: aliceblue;
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
-
-.todo {
-  display: flex;
-  justify-content: flex-start;
-  flex-direction: column;
-}
-
-.blue-box {
-  margin-top: 30px;
-  width: 125px;
-  height: 100px;
-  background: blue;
-  border: 10px black solid;
   justify-content: center;
-}
-
-.buttonfade {
-  transition: opacity 2s ease;
-}
-
-.fadeOut {
-  opacity: 0;
-  width: 0;
-  height: 0;
-  transition: width 0.5s 0.5s, height 0.5s 0.5s, opacity 0.5s;
-}
-.fadeIn {
-  opacity: 1;
-  width: 100px;
-  height: 100px;
-  transition: width 0.5s, height 0.5s, opacity 0.5s 0.5s;
+  flex-direction: column;
+  font-family: "Roboto Mono", monospace;
+  width: 750px;
+  position: relative;
+  text-align: center;
+  align-items: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }

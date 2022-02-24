@@ -10,6 +10,7 @@ class TipCalc extends React.Component {
     tipPP: "",
   };
 
+  //events
   handleTotal = (event) => {
     this.setState({
       total: event.target.value,
@@ -41,10 +42,10 @@ class TipCalc extends React.Component {
   //controlled form - we set values equal to something in state
   render() {
     return (
-      <div>
-        <h1>Calculator</h1>
+      <div className="calc">
+        <h1 className="calc-header">DON'T FORGET TO CALCULATE THE COST!</h1>
         <form onSubmit={this.getTip}>
-          <label>
+          <label className="calc-two">
             What is your total?
             <input
               type="text"
@@ -52,15 +53,15 @@ class TipCalc extends React.Component {
               onChange={this.handleTotal}
             ></input>
           </label>
-          <label>
-            How was your service?
+          <label className="calc-two">
+            What would you like to tip? (use decimals)
             <input
               type="text"
               value={this.state.service}
               onChange={this.handleService}
             ></input>
           </label>
-          <label>
+          <label className="calc-two">
             What is your party size?
             <input
               type="text"
@@ -68,7 +69,7 @@ class TipCalc extends React.Component {
               onChange={this.handleParty}
             ></input>
           </label>
-          <input type="submit"></input>
+          <input className="calc-two" type="submit"></input>
         </form>
         <p>tip: ${this.state.totalTip}</p>
         <p>tip for each person: ${this.state.tipPP}</p>

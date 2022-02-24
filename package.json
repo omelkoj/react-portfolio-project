@@ -1,7 +1,6 @@
 {
   "name": "react-portfolio-project",
   "version": "0.1.0",
-  https://{username}.github.io/{react-portfolio-project}
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.2",

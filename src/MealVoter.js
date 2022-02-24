@@ -1,30 +1,48 @@
-import React, { useState } from "react";
-import MealVoterB from "./MealVoterB";
+import React, { Component } from "react";
 
-function MealVoter({ name }) {
-  //object? variable itself
-  const [count, setCount] = useState(0);
+export default class MealVoter extends Component {
+  constructor(props) {
+    super(props);
 
-  //variables which are arrow functions inside our functional component, simply are nomrmal functions
-  const increment = () => {
-    setCount(count + 1);
+    //object, and no setter for each piece of state in the component
+    this.state = {
+      count: 0,
+      age: 26,
+    };
+  }
+  //functions not variables
+  increment = () => {
+    //{} pass in object - refers to this instance of class we are defining
+    //now we are returning an object
+    this.setState((previousState) => ({
+      count: previousState.count + 1,
+    }));
   };
 
-  const decrement = () => {
-    setCount(count - 1);
+  decrement = () => {
+    this.setState((previousState) => ({
+      count: previousState.count - 1,
+    }));
   };
 
-  return (
-    <div>
-      <MealVoterB name={name} />
-      <p>Hello {name}, welcome to the MealVoter!</p>
-      <p>Your total is: {count} </p>
-      <p>Vote Up</p>
-      <button onClick={increment}>+</button>
-      <p>Vote Down</p>
-      <button onClick={decrement}>-</button>
-    </div>
-  );
+  render() {
+    return (
+      <div className="background-color">
+        <p className="background-color">
+          Vote on your favorite {this.props.meal}!
+        </p>
+        <p className="background-color-bold">
+          Your total is: {this.state.count}{" "}
+        </p>
+        <p className="background-color-bold">Vote Up</p>
+        <button className="background-color-buttons" onClick={this.increment}>
+          +
+        </button>
+        <p className="background-color-bold">Vote Down</p>
+        <button className="background-color-buttons" onClick={this.decrement}>
+          -
+        </button>
+      </div>
+    );
+  }
 }
-
-export default MealVoter;
