@@ -43,7 +43,7 @@ class TipCalc extends React.Component {
   render() {
     return (
       <div className="calc">
-        <h1 className="calc-header">DON'T FORGET TO CALCULATE THE COST!</h1>
+        <h1 className="calc-header">DON'T FORGET TO TIP!</h1>
         <form onSubmit={this.getTip}>
           <label className="calc-two">
             What is your total?
