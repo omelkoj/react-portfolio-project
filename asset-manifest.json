@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/omelkoj/react-portfolio-project/static/css/main.6ae8fa0e.css",
-    "main.js": "/omelkoj/react-portfolio-project/static/js/main.29cb579f.js",
-    "static/js/787.5da09daf.chunk.js": "/omelkoj/react-portfolio-project/static/js/787.5da09daf.chunk.js",
-    "static/media/339-3397382_sushi-sashimi-pixel-art-pixelart-food-asian-cute.png": "/omelkoj/react-portfolio-project/static/media/339-3397382_sushi-sashimi-pixel-art-pixelart-food-asian-cute.fd759256ceea00b63268.png",
-    "static/media/181-1816644_transparent-pizza-slice-png-small-easy-pixel-art.png": "/omelkoj/react-portfolio-project/static/media/181-1816644_transparent-pizza-slice-png-small-easy-pixel-art.a093c7b850c28e380b92.png",
-    "static/media/528-5281174_donut-pixel-art-grid-hd-png-download.png": "/omelkoj/react-portfolio-project/static/media/528-5281174_donut-pixel-art-grid-hd-png-download.a45f1696908762125f53.png",
-    "index.html": "/omelkoj/react-portfolio-project/index.html",
-    "main.6ae8fa0e.css.map": "/omelkoj/react-portfolio-project/static/css/main.6ae8fa0e.css.map",
-    "main.29cb579f.js.map": "/omelkoj/react-portfolio-project/static/js/main.29cb579f.js.map",
-    "787.5da09daf.chunk.js.map": "/omelkoj/react-portfolio-project/static/js/787.5da09daf.chunk.js.map"
+    "main.css": "/omelkoj/react-portfolio-project.git/static/css/main.6ae8fa0e.css",
+    "main.js": "/omelkoj/react-portfolio-project.git/static/js/main.e75c6236.js",
+    "static/js/787.5da09daf.chunk.js": "/omelkoj/react-portfolio-project.git/static/js/787.5da09daf.chunk.js",
+    "static/media/339-3397382_sushi-sashimi-pixel-art-pixelart-food-asian-cute.png": "/omelkoj/react-portfolio-project.git/static/media/339-3397382_sushi-sashimi-pixel-art-pixelart-food-asian-cute.fd759256ceea00b63268.png",
+    "static/media/181-1816644_transparent-pizza-slice-png-small-easy-pixel-art.png": "/omelkoj/react-portfolio-project.git/static/media/181-1816644_transparent-pizza-slice-png-small-easy-pixel-art.a093c7b850c28e380b92.png",
+    "static/media/528-5281174_donut-pixel-art-grid-hd-png-download.png": "/omelkoj/react-portfolio-project.git/static/media/528-5281174_donut-pixel-art-grid-hd-png-download.a45f1696908762125f53.png",
+    "index.html": "/omelkoj/react-portfolio-project.git/index.html",
+    "main.6ae8fa0e.css.map": "/omelkoj/react-portfolio-project.git/static/css/main.6ae8fa0e.css.map",
+    "main.e75c6236.js.map": "/omelkoj/react-portfolio-project.git/static/js/main.e75c6236.js.map",
+    "787.5da09daf.chunk.js.map": "/omelkoj/react-portfolio-project.git/static/js/787.5da09daf.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6ae8fa0e.css",
-    "static/js/main.29cb579f.js"
+    "static/js/main.e75c6236.js"
   ]
 }
