@@ -1,20 +1,18 @@
 {
   "files": {
-    "main.css": "/omelkoj/react-portfolio-project/static/css/main.3812d35d.chunk.css",
-    "main.js": "/omelkoj/react-portfolio-project/static/js/main.2cb027db.chunk.js",
-    "main.js.map": "/omelkoj/react-portfolio-project/static/js/main.2cb027db.chunk.js.map",
-    "runtime~main.js": "/omelkoj/react-portfolio-project/static/js/runtime~main.a1405f35.js",
-    "runtime~main.js.map": "/omelkoj/react-portfolio-project/static/js/runtime~main.a1405f35.js.map",
-    "static/js/2.eda41d6b.chunk.js": "/omelkoj/react-portfolio-project/static/js/2.eda41d6b.chunk.js",
-    "static/js/2.eda41d6b.chunk.js.map": "/omelkoj/react-portfolio-project/static/js/2.eda41d6b.chunk.js.map",
-    "static/js/3.c70b6b5b.chunk.js": "/omelkoj/react-portfolio-project/static/js/3.c70b6b5b.chunk.js",
-    "static/js/3.c70b6b5b.chunk.js.map": "/omelkoj/react-portfolio-project/static/js/3.c70b6b5b.chunk.js.map",
-    "index.html": "/omelkoj/react-portfolio-project/index.html",
-    "precache-manifest.38117b2f96673a234959948e97eda892.js": "/omelkoj/react-portfolio-project/precache-manifest.38117b2f96673a234959948e97eda892.js",
-    "service-worker.js": "/omelkoj/react-portfolio-project/service-worker.js",
-    "static/css/main.3812d35d.chunk.css.map": "/omelkoj/react-portfolio-project/static/css/main.3812d35d.chunk.css.map",
-    "static/media/181-1816644_transparent-pizza-slice-png-small-easy-pixel-art.png": "/omelkoj/react-portfolio-project/static/media/181-1816644_transparent-pizza-slice-png-small-easy-pixel-art.08d1844a.png",
-    "static/media/339-3397382_sushi-sashimi-pixel-art-pixelart-food-asian-cute.png": "/omelkoj/react-portfolio-project/static/media/339-3397382_sushi-sashimi-pixel-art-pixelart-food-asian-cute.9a9ebab8.png",
-    "static/media/528-5281174_donut-pixel-art-grid-hd-png-download.png": "/omelkoj/react-portfolio-project/static/media/528-5281174_donut-pixel-art-grid-hd-png-download.38e93d98.png"
-  }
+    "main.css": "/omelkoj/react-portfolio-project.git/static/css/main.6ae8fa0e.css",
+    "main.js": "/omelkoj/react-portfolio-project.git/static/js/main.e75c6236.js",
+    "static/js/787.5da09daf.chunk.js": "/omelkoj/react-portfolio-project.git/static/js/787.5da09daf.chunk.js",
+    "static/media/339-3397382_sushi-sashimi-pixel-art-pixelart-food-asian-cute.png": "/omelkoj/react-portfolio-project.git/static/media/339-3397382_sushi-sashimi-pixel-art-pixelart-food-asian-cute.fd759256ceea00b63268.png",
+    "static/media/181-1816644_transparent-pizza-slice-png-small-easy-pixel-art.png": "/omelkoj/react-portfolio-project.git/static/media/181-1816644_transparent-pizza-slice-png-small-easy-pixel-art.a093c7b850c28e380b92.png",
+    "static/media/528-5281174_donut-pixel-art-grid-hd-png-download.png": "/omelkoj/react-portfolio-project.git/static/media/528-5281174_donut-pixel-art-grid-hd-png-download.a45f1696908762125f53.png",
+    "index.html": "/omelkoj/react-portfolio-project.git/index.html",
+    "main.6ae8fa0e.css.map": "/omelkoj/react-portfolio-project.git/static/css/main.6ae8fa0e.css.map",
+    "main.e75c6236.js.map": "/omelkoj/react-portfolio-project.git/static/js/main.e75c6236.js.map",
+    "787.5da09daf.chunk.js.map": "/omelkoj/react-portfolio-project.git/static/js/787.5da09daf.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6ae8fa0e.css",
+    "static/js/main.e75c6236.js"
+  ]
 }
